@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>welcome</title>
+</head>
+<body>
+<h1>1st assignment</h1>
+<h1>1st Task --></h1>
+<h1>&</h1>
+<script type="text/javascript">
+console.log("1ST TASK");
+console.log(1 + "2" + "2");
+console.log(1 + +"2" + "2");
+console.log(1 + -"1" + "2");
+console.log(+"1" + "1" + "2");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2);
+</script>
+
+<!--
+OUTPUT:
+ 1ST TASK
+122
+32
+02
+112
+NaN2
+NaN
+ -->
+<!-- EXPLANATION -->
+<!-- 
+console.log(1 + "2" + "2"); - output of this statement is "122". "when if the number  or sometext is inside in 
+the quotes of the print statement, that print statement 
+print the value as same without change." and the + operator is used to concat the strings or number(only quoted numbers).
+
+console.log(1 + +"2" + "2"); - output of this statement is "32". "when if the number  or sometext is inside in 
+the quotes of the print statement, that print statement 
+print the value as same without change." and it has two + operators, one is used to perform addition and another one is used to
+concat the numbers.
+
+console.log(1 + -"1" + "2"); - output of this statement is "02". "when if the number  or sometext is inside in 
+the quotes of the print statement, that print statement 
+print the value as same without change." In this statement there are two add operator and one sub operator, add operator is used
+to perform concat and sub operator is used to sub the 1st two numbers.
+
+console.log(+"1" + "1" + "2"); -  output of this statement is "112". "when if the number  or sometext is inside in 
+the quotes of the print statement, that print statement 
+print the value as same without change." in this statement there are 3 add operators, 1st one is not consider by the browser and another
+two is used to perform concatination.
+
+console.log( "A" - "B" + "2"); - output of this statement is "NaN2". in this statement there are sub, and add operators. note- you can't add
+and sub the letters. that why the browser return the "NaN" value.
+
+console.log( "A" - "B" + 2); -  output of this statement is "NaN". in this statement there are sub, and add operators. note- you can't add
+and sub the letters. that why the browser return the "NaN" value. and you can't add the number with letters.
+
+-->
+
+<h1>1st assignment</h1>
+<h1>2st Task --></h1>
+
+<script>
+console.log("2ND TASK");
+var marks=100;
+if(marks>90)
+{
+console.log("AA");
+}
+else if(marks>80 && marks<=90)
+{
+console.log("AB");
+}
+else if(marks>70 && marks<=80)
+{
+console.log("BB");
+}
+else if(marks>60 && marks<=70)
+{
+console.log("BC");
+}
+else if(marks>50 && marks<=60)
+{
+console.log("CC");
+}
+else if(marks>40 && marks<=50)
+{
+console.log("CD");
+}
+else if(marks>30 && marks<=40)
+{
+console.log("DD");
+}
+else
+{
+console.log("FF");
+}
+</script>
+</body>
+</html> 
